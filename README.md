@@ -27,10 +27,10 @@ Base de reglas: Las dos entradas y la salida se encuentran relacionadas mediante
 Entradas y Salidas del sistema difuso.
 
 <p align="center">
-  <img src="Images/Inputs.png" width="650" title="hover text">
+  <img src="Images/Input.png" width="650" title="hover text">
 </p>
 
 <p align="center">
-  <img src="Images/Ouputs.png" width="375" title="hover text">
+  <img src="Images/Ouput.png" width="375" title="hover text">
 </p>
 
