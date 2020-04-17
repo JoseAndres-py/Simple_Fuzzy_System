@@ -1,46 +1,36 @@
-# Coursera Capstone
+# Simple Fuzzy System
 
-This is a Capstone Project Notebook (Coursera) for In this specialization learners developed and honed skills for practical data science and machine learning problems. The specialization included learning Python, as well as performing data analysis, and creating data visualizations using Python. Learners also completed a Capstone project to apply and demonstrate their newly acquired knowledge and skills.
+El programa se encarga de evaluar un sistema de decisión difusa para la compra de autos basado en dos entradas (precio, kilometraje), un conjunto de reglas y una salida que determina la compra o no-compra del vehículo. 
+Entradas: El sistema tiene dos entradas definidas así: 
 
-Segmenting and Clustering Neighborhoods in Toronto
-==========
-In this assignment, you will be required to explore, segment, and cluster the neighborhoods in the city of Toronto. However, unlike New York, the neighborhood data is not readily available on the internet. What is interesting about the field of data science is that each project can be challenging in its unique way, so you need to learn to be agile and refine the skill to learn new libraries and tools quickly depending on the project.
+Precio: Esta entrada tiene un universo de discurso entre 0 y 100 Millones de pesos. 
+Conjuntos difusos de la entrada:  
+    -Barato: Trapezoidal (0, 0, 30, 70)  
+    -Estándar: Triangular (25, 60, 85)  
+    -Costoso: Trapezoidal (55, 80, 100, 100) 
+Kilometraje: Esta entrada tiene un universo de discurso entre 0 y 300 Mil Kilómetros 
+Conjuntos difusos de la entrada:  
+    -Bajo: Trapezoidal (0, 0, 50, 200)  
+    -Medio: Trapezoidal (50, 100, 200, 300)  
+    -Alto: Triangular (200, 300, 300) 
+Salida: La salida tiene un Universo de discurso entre 0 y 1 y dos conjuntos de salida así: 
+    -Comprar: Trapezoidal (0, 0, 0.3, 0.8) 
+    -No-Comprar: Triangular (0.5, 1, 1) 
+    
+Base de reglas: Las dos entradas y la salida se encuentran relacionadas mediante 9 reglas definidas en la siguiente matriz de reglas. 
 
-For the Toronto neighborhood data, a Wikipedia page exists that has all the information we need to explore and cluster the neighborhoods in Toronto. You will be required to scrape the Wikipedia page and wrangle the data, clean it, and then read it into a pandas dataframe so that it is in a structured format like the New York dataset.
-
-Once the data is in a structured format, you can replicate the analysis that we did to the New York City dataset to explore and cluster the neighborhoods in the city of Toronto.
-
-<p align="center">
-  <img src="Images_Results/3.png" width="650" title="hover text">
-</p>
-
-Capstone Project - The Battle of Neighborhoods (Week 1)
---------------------
-Define a problem or an idea of your choice, where you would need to leverage the Foursquare location data to solve or execute. Remember that data science problems always target an audience and are meant to help a group of stakeholders solve a problem, so make sure that you explicitly describe your audience and why they would care about your problem.
-
-Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
-
-<p align="center">
-  <img src="Images_Results/6.png" width="650" title="hover text">
-</p>
-
-Capstone Project - The Battle of Neighborhoods (Week 2)
---------------------
-In this week, you will continue working on your capstone project. Please remember by the end of this week, you will need to submit the following:
-
-A full report consisting of all of the following components:
-Introduction where you discuss the business problem and who would be interested in this project.
-Data where you describe the data that will be used to solve the problem and the source of the data.
-Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
-Results section where you discuss the results.
-Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
-Conclusion section where you conclude the report.
-2. A link to your Notebook on your Github repository pushed showing your code.
-
-3. Your choice of a presentation or blogpost. 
 
 <p align="center">
-  <img src="Images_Results/7.png" width="650" title="hover text">
+  <img src="Images/Table.png" width="650" title="hover text">
 </p>
 
+Entradas y Salidas del sistema difuso.
+
+<p align="center">
+  <img src="Images/Inputs.png" width="650" title="hover text">
+</p>
+
+<p align="center">
+  <img src="Images/Ouputs.png" width="375" title="hover text">
+</p>
 
