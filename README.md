@@ -4,7 +4,7 @@ El programa se encarga de evaluar un sistema de decisión difusa para la compra 
 Entradas: El sistema tiene dos entradas definidas así: 
 
 Precio: Esta entrada tiene un universo de discurso entre 0 y 100 Millones de pesos. 
-1.Conjuntos difusos de la entrada:  
+1. Conjuntos difusos de la entrada:  
     -Barato: Trapezoidal (0, 0, 30, 70)  
     -Estándar: Triangular (25, 60, 85)  
     -Costoso: Trapezoidal (55, 80, 100, 100) 
